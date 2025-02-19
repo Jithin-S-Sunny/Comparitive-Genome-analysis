@@ -1,0 +1,14 @@
+name: variant_analysis
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - minimap2
+  - samtools
+  - bcftools
+  - mummer
+  - syri
+  - snpeff
+  - bedtools
+  - openjdk
