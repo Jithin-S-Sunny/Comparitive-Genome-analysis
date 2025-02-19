@@ -23,7 +23,9 @@ conda activate variant_analysis
 ### Running the Pipeline
 
 To execute the Snakemake workflow, run the following command:
+
 snakemake --use-conda -j 4
+
 --use-conda ensures that Snakemake creates and uses the specified environment.
 -j 4 specifies the number of parallel jobs (adjust as needed).
 
